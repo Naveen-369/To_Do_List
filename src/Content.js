@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Content.css'
 const Content = () => {
     function GreetUser(){
         const arr=["Naveen","Kumar","Liar"];
@@ -8,7 +8,7 @@ const Content = () => {
     }
     return (
     <div>
-        <p>Hello {GreetUser()}</p>
+        <p className='summa'>Hello {GreetUser()}</p>
     </div>
     )
 }

@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    
+}
+.Titlebar{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 8, 0);
+    color: white;
+}
+.Profile{
+    text-align: center;
+    font-size: 30px;
+}
