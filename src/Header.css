@@ -7,7 +7,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(255, 8, 0);
+    background-color: greenyellow;
     color: white;
 }
 .Profile{
