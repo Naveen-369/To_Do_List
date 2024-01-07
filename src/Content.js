@@ -1,4 +1,7 @@
-import React from 'react'
+//Importing the CSS package
+import React from 'react';
+import './Content.css';
+//Declaration of the package
 const Content = () => {
     function GreetUser(){
         const arr=["Naveen","Kumar","Liar"];
