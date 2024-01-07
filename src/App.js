@@ -1,5 +1,5 @@
 //Importing the styles page
-import './App.css'
+
 //Importing the Components
 import Header from './Header'
 import Content from './Content';
