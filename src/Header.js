@@ -1,10 +1,9 @@
 import React from 'react'
-import './Header.css'
 
 const Header = () => {
     return (
         <header>
-            Naveen Kumar - Profile
+            <h1>Naveen Kumar</h1>
         </header>
     );
 }

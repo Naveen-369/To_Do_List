@@ -7,7 +7,7 @@ import Footer from './Footer';
 //Declaration of the Application
 function App() {
   return (
-    <div className='Gun'>
+    <div className='Home'>
         <Header />
         <Content />
         <Footer />
