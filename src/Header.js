@@ -8,6 +8,7 @@ const Header = () => {
                 <p>Skills</p>
                 <p>Certification</p>
                 <p>Contact</p>
+                {/* Button has to be added here */}
             </nav>
         </header>
     );
