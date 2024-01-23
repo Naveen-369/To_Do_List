@@ -16,6 +16,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 .App {
@@ -33,11 +34,12 @@ body {
 header {
   width: 100%;
   font-size: 20px;
-  background-color: mediumblue;
-  color: aliceblue;
-  display: flex;
-  justify-content: center;
+  background-color: rgb(115, 103, 103);
+  color: white;
+  display:flex;
+  justify-content: space-between;
   align-items: center;
+  padding-left: 20px;
   padding-bottom: 10px;
   margin-bottom: 21px;
   h1{
@@ -46,6 +48,15 @@ header {
     font-family: 'Bungee Spice', sans-serif;
     font-family: 'Playfair Display', serif;
   }
+  nav{
+    display: flex;
+    p{
+      padding-right: 20px;
+      font-family: 'Syncopate', sans-serif;
+      font-size: 18px;
+      font-weight: 900;
+    }
+  }
 }
 
 main {
@@ -53,7 +64,7 @@ main {
   width: 100%; 
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 85vh;
   flex-grow: 1;
   color: red;
   justify-content: flex-start;
@@ -64,8 +75,8 @@ footer {
   font-size: 15px;
   width: 100%;
   padding: 0.25em;
-  background-color: mediumblue;
-  color: aliceblue;
+  background-color: rgb(130, 116, 116);
+  color: white;
   display: grid;
   place-content: center;
 }

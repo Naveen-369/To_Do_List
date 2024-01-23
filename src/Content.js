@@ -5,7 +5,6 @@ function Content() {
     //Declaration of the JSX
     return (
     <main>
-        <p>Hello Naveen Kumar</p>
     </main>
     )
 }
