@@ -4,10 +4,8 @@ const Header = () => {
         <header>
             <h1>Naveen Kumar</h1>
             <nav>
-                <p>Home</p>
-                <p>Skills</p>
-                <p>Certification</p>
-                <p>Contact</p>
+                <p>To-Do Application</p>
+                {/* Button has to be added here */}
             </nav>
         </header>
     );
