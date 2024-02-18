@@ -21,23 +21,7 @@ function Content() {
 
 
     // Declaration of the Usestate hooks for the Seamless Creation and deletion experience
-    const [tasks, setTasks] = useState([
-        {
-            id: 1,
-            text: 'Doctor Appointment',
-            reminder: true,
-        },
-        {
-            id: 2,
-            text: 'Meeting at School',
-            reminder: true,
-        },
-        {
-            id: 3,
-            text: 'Food Shopping',
-            reminder: false,
-        },
-    ]);
+    const [tasks, setTasks] = useState([]);
 
     // Declaration the function
     const handleCheck = (id) => {
