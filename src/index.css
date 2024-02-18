@@ -37,24 +37,25 @@ header {
 	background-color: rgb(115, 103, 103);
 	color: white;
 	display:flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	align-items: center;
 	padding-left: 20px;
 	padding-bottom: 10px;
 	margin-bottom: 21px;
 	h1{
+		/* flex: 1; */
 	padding-top: 10px;
 	font-weight: 500;
 	font-family: 'Bungee Spice', sans-serif;
 	font-family: 'Playfair Display', serif;
 	}
 	nav{
-		display: flex;
 		margin-top: 10px;
 		p{
 			padding-right: 20px;
-			font-family: 'Syncopate', sans-serif;
-			font-size: 18px;
+			font-family: "Playfair Display", serif;
+			text-align: center;
+			font-size: 40px;
 			font-weight: 900;
 		}
 	}
@@ -93,4 +94,58 @@ ul li{
 	text-align: center;
 	padding: 30px;
 }
+ul li svg{
+	font-size: 30px;
+	color: white;
+	margin-left: 20px;
+}
+ul li svg:hover{
+	color:red;
+	cursor: pointer;
+}
+ul li input[type="checkbox"]{
+	transform: scale(5);
+	margin: 10px;
+	margin-right: 50px;
+}
+ul li input[type="checkbox"]:hover{
+	cursor: pointer;
+}
+li input[type="checkbox"]:hover + label{
+	text-decoration:underline;
+}	
 
+.inputter{
+	display: flex;
+	justify-content:space-evenly;
+}
+#TaskGetter{
+	flex:3;
+	border-radius: 30px;
+	padding:6px 0px 6px 20px ;
+	font-size: 25px;
+	font-family: "Playfair Display", serif;
+	font-weight: 400 ;
+	background-color: black;
+	color: white;
+	border: 1px solid wheat;
+}
+button{
+	cursor: pointer;
+	flex: 1;
+	margin-right: 50px;
+	margin-left: 20px;
+	border-radius: 30px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 30px;
+	background-color:black;
+	border: 1px solid wheat;
+	color: wheat;
+	transition: transform 0.5s ease;
+}
+button:hover{
+	transform: scale(1.1);
+}
+main{
+	padding-top: 30px;
+}
