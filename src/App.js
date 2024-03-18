@@ -9,7 +9,7 @@ function App() {
   
   return (
     <div className='Home'>
-        <Header />
+        <Header author="Naveen Kumar" heading="To - Do Application"/>
         <Content />
         <Footer />
     </div>
